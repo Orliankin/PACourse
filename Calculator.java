@@ -17,6 +17,8 @@ public class Calculator {
         } catch (ArithmeticException ae) {
             System.out.println("divide by zero!" + " number one = " + num1 + " number two = " + num2);
             ae.printStackTrace();
+        } catch (Throwable t) {
+            System.out.println("Случилось что-то страшное и непонятное!");
         }
     }
 
