@@ -31,6 +31,6 @@ public class Calculator {
             System.out.println(number1 + number2);
         } else if ("-".equals(symbol)) {
             System.out.println(number1 - number2);
-        }
+        } else System.out.printf("Вы ввели некорректный символ.");
     }
 }
